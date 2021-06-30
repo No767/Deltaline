@@ -75,6 +75,10 @@
   padding-right: 1rem;
 }
 
+.bi-info-circle {
+  padding-right: 0.7rem;
+}
+
 .more-is-needed {
   height: 25rem;
 }
@@ -95,14 +99,4 @@
 .row-one {
   background-color: #d1f4ff;
   height: 15rem;
-}
-
-.row-two {
-  background-color: grey;
-  height: 40rem;
-}
-
-.footer-space {
-  background-color: grey;
-  height: 6rem;
 }

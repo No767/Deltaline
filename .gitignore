@@ -1,5 +1,5 @@
-.sudo
-.idea
-.vscode 
-web.config
-.config
+*.sudo
+*.idea
+*web.config
+*.config
+*.vscode
