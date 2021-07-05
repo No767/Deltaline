@@ -15,9 +15,7 @@
   
   .the-second-row {
     background-color: rgb(171, 253, 229);
-    height: 15rem;
-    overflow: hidden;
-    padding: 6rem auto;
+    height: 30rem;
   }
 
 
@@ -32,3 +30,9 @@
   background-color: rgba(36, 31, 49, 0.47);
   padding: 6rem auto;
 }
+
+.main-content {
+  height: 30rem;
+  background-color: white;
+}
+
