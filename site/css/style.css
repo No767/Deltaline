@@ -91,7 +91,7 @@
   height: 60rem;
 }
 
-.jumbotron {
+.jumbotron-2 {
   display: flex;
   background-image: linear-gradient(120deg, #9c9fff, #b8eeff, #ed94ff);
 }
