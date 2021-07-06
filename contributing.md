@@ -7,6 +7,7 @@ You are free to contribute into this repo. The Code of Conduct still appiles her
 
 - Describe what is the change (branch change, clean up code, etc)
 - If it's updating the other files (that dont have to go through the CI), add a [ci skip] label in the front of the commit message (not sure if buddy ci will catch that or not...)
+- Add a [skip ci] or [skip netlify] when working on other files that are not releated with the main files (so it doesn't trigger a build on Netlify)
 
 ### Issues
 
@@ -28,8 +29,8 @@ Please make sure that the code is readable and clean. for example,
   <head><meta name="viewport" content ="width=device-width, initial-scale=1, user-scalable=yes" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-<link rel="shortcut icon" type="image/jpg" href="Dcey SMP Logo V4 Release.webp"/>
-<title>Maps for Dcey SMP</title>
+<link rel="shortcut icon" type="image/x-icon" href="img/Deltaline Logo Release V3 (8144 Resize).svg"/>
+<title>Deltaline</title>
 </head>
 
 ``` 
@@ -42,8 +43,8 @@ Please make sure that the code is readable and clean. for example,
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" type="image/jpg" href="Dcey SMP Logo V4 Release.webp"/>
-    <title>Maps for Dcey SMP</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/Deltaline Logo Release V3 (8144 Resize).svg"/>
+    <title>Deltaline</title>
 
 ```
 this one is too messy and it's kinda hard to read
