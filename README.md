@@ -29,5 +29,5 @@ This site is powered by Netlify, so all commits will be built and deployed on Ne
 - Bootstrap (5.0.2)
 - Bootstrap-Icons (1.5.0)
 - Sass (1.35.1)
-
+- Google Material Icons (3.0.1)
 
