@@ -100,3 +100,10 @@
   background-color: #d1f4ff;
   height: 15rem;
 }
+
+@media only screen and (max-width: 993px) {
+  .block {
+    text-align: center;
+  }
+
+}
