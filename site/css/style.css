@@ -106,3 +106,22 @@
   }
 
 }
+
+.material-icons.md-48 {
+  font-size: 150px;
+}
+
+.btn {
+  background-color: #bddfff;
+  color: black;
+  font-size: 20px;
+}
+
+.btn-outline-dark:hover {
+  background-color: rgb(237, 215, 255);
+  color: rgb(0, 0, 0)
+}
+
+.bi-file-text {
+  padding-right: 0.75rem;
+}
