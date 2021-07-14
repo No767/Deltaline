@@ -125,3 +125,13 @@
 .bi-file-text {
   padding-right: 0.75rem;
 }
+
+.hr-width {
+  width: 30%;
+}
+
+.page-item > a:hover{ 
+  background-color: #8c73ff;
+  color: white;
+}
+
