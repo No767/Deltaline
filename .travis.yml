@@ -7,7 +7,7 @@ install:
   - gem install rake
 
 script: 
- - bundle install html-proofer
+ - bundle install
  - bundle exec rakefile
 
 branches: 
