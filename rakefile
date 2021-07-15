@@ -1,0 +1,2 @@
+require 'html-proofer'
+HTMLProofer.check_directory('./site').run
