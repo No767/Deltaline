@@ -3,9 +3,11 @@ rvm:
  - 2.6.3
 
 install: 
+  - cd /bundle
   - gem install html-proofer
 
 script: 
+  - cd /bundle
   - bundle exec rake build
 
 branches: 
