@@ -1,3 +1,2 @@
 require 'html-proofer'
-require 'rake'
 HTMLProofer.check_directory('./site').run
