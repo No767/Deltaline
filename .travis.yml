@@ -8,7 +8,7 @@ install:
 
 script: 
  - bundle install
- - bundle exec rakefile
+ - rake
 
 branches: 
   only: 
