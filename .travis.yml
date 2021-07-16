@@ -9,7 +9,7 @@ addons:
 install:
  - pip install html5validator
 
-script: html5validator --root _site/
+script: html5validator index.html --root _site/
 
 branches:
   only:
