@@ -1,18 +1,17 @@
-language: ruby
-rvm:
- - 2.6.3
+language: python
+python:
+ - "2.7"
+addons:
+  apt:
+    packages:
+      - openjdk-8-jre  
 
-install: 
-  - gem install html-proofer
-  - gem install rake
+install:
+ - pip install html5validator
 
-script: 
- - bundle install
- - rake
+script: html5validator --root _site/
 
-branches: 
-  only: 
-  - master
-  - dev
-
-cache: bundler
+branches:
+  only:
+    - master
+    - dev
