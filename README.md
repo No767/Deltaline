@@ -10,7 +10,7 @@ Source Code for the Deltaline Website
 <div align=left>
 
 # License
-This repo is licensed under the [GPL-3.0](https://github.com/No767/Deltaline/blob/master/LICENSE.txt) License. Logo is licensed under the the CC-BY-NC-ND 4.0 License, and all other works are all rights reserved. For futher information on the usage of the Logo, please refer to the [docs](https://no767.github.io/Project-Deltaline-Docs/)
+This repo is licensed under the [GPL-3.0](https://github.com/No767/Deltaline/blob/master/LICENSE.txt) License. Logo is licensed under the the CC-BY-NC-ND 4.0 License, and all other works are all rights reserved. For futher information on the usage of the Logo, please refer to the [docs](https://no767.github.io/-Deltaline-Docs/). And if you are more confused about the licensing, refer to [this](https://no767.github.io/Deltaline-Docs/Licensing/) of the docs
 
 # Contributing
 See [Contributing](https://github.com/No767/Deltaline/blob/master/contributing.md)

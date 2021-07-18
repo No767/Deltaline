@@ -2,7 +2,7 @@
 
 ## Art Assets
 
-See [Art Assets](https://no767.github.io/Project-Deltaline-Docs/Art%20Assets/)
+See [Art Assets](https://no767.github.io/Deltaline-Docs/Art%20Assets/)
 
 ## Copyright and Usage
 
