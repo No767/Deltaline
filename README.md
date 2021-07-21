@@ -22,9 +22,9 @@ Via [yarn](https://yarnpkg.com/)
 
 This site is powered by Netlify, so all commits will be built and deployed on Netlify
 
-Via Python and [Django](https://www.djangoproject.com/)
+Via [Python](https://www.python.org/) and [Django](https://www.djangoproject.com/)
 
-The requirements.txt should have the lib pre-installed, but if needed, install it via `pip` (`pip install Django==3.2.5`)
+`pip install Django==3.2.5`
 
 # Dependencies
 
