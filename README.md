@@ -22,9 +22,9 @@ Via [yarn](https://yarnpkg.com/)
 
 This site is powered by Netlify, so all commits will be built and deployed on Netlify
 
-Via Python and [Django](https://www.djangoproject.com/)
+Via [Python](https://www.python.org/) and [Django](https://www.djangoproject.com/)
 
-The requirements.txt should have the lib pre-installed, but if needed, install it via `pip` (`pip install Django==3.2.5`)
+`pip install Django==3.2.5`
 
 # Dependencies
 
@@ -34,3 +34,5 @@ The requirements.txt should have the lib pre-installed, but if needed, install i
 - Bootstrap-Icons (1.5.0)
 - Sass (1.35.2)
 - Google Material Icons (3.0.1)
+- Django (3.2.5)
+
