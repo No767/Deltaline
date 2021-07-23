@@ -4,7 +4,7 @@ python:
 addons:
   apt:
     packages:
-      - openjdk-8-jre  
+      - openjdk-8-jre
 
 install:
  - pip install html5validator
