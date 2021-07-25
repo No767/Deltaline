@@ -3,6 +3,7 @@
 <div align=center>
 <img type="image/x-icon" src="assets/Deltaline Logo Release V3 (512 Resize).svg">
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ca097d4018ad44ebb2bf44ee6da59bb0)](https://app.codacy.com/gh/No767/Deltaline?utm_source=github.com&utm_medium=referral&utm_content=No767/Deltaline&utm_campaign=Badge_Grade_Settings)
 [![Jekyll site CI](https://github.com/No767/Deltaline/actions/workflows/jekyll.yml/badge.svg?branch=master)](https://github.com/No767/Deltaline/actions/workflows/jekyll.yml) [![Django CI](https://github.com/No767/Deltaline/actions/workflows/django.yml/badge.svg?branch=dev)](https://github.com/No767/Deltaline/actions/workflows/django.yml) [![Netlify Status](https://api.netlify.com/api/v1/badges/e8232711-1bd5-4e73-b5a9-92af059e2486/deploy-status)](https://app.netlify.com/sites/deltaline/deploys) <img alt="Travis (.com)" src="https://img.shields.io/travis/com/No767/Deltaline?label=Travis%20CI"> <a href="https://github.styleci.io/repos/374247117?branch=master"><img src="https://github.styleci.io/repos/374247117/shield?branch=master" alt="StyleCI"></a> <img src="https://www.codefactor.io/repository/github/no767/deltaline/badge" alt="CodeFactor" /></a> <img alt="GitHub" src="https://img.shields.io/github/license/No767/Deltaline">
 
 Source Code for the Deltaline Website
