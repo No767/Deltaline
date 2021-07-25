@@ -1,12 +1,6 @@
-FROM python:3
+FROM nginx:alpine
 
-WORKDIR /
-
-WORKDIR /Django
-
-COPY requirements*.txt /Django/
-
-RUN pip install -r requirements.txt
+COPY ./dockersite /usr/share/nginx/html
 
 ENV PORT=8080
 
