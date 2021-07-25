@@ -1,0 +1,51 @@
+
+.jumbotron {
+    background-image: linear-gradient(120deg, #d7d9ff, #68cbe9, #b89eff);
+    padding: 4rem;
+    display: flex;
+  }
+  
+  .more-space-2 {
+    height: 20rem;
+  }
+  
+  .the-second-row {
+    background-image: linear-gradient(120deg, #d7d9ff, #f1e8ff, #e9ffe0)
+  }
+
+
+  .more-space-is-needed {
+      height: 20rem;
+  }
+
+ 
+.try-row {
+  overflow: hidden;
+  background-color: rgba(36, 31, 49, 0.47);
+  padding: 6rem auto;
+}
+
+.main-content {
+  background-color: white;
+}
+
+.footerv2 {
+  background-color: white;
+}
+
+hr {
+  width: 75%;
+}
+
+.page-item > a.active {
+  background-color: #aba1ff !important;
+  color: #ffffff !important;
+}
+
+.page-item > li > a:hover {
+  color: #90ffe3 !important;
+}
+
+.img-fluid-height {
+  height: 350px;
+}
