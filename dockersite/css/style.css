@@ -10,12 +10,12 @@
 
 
 .nav-pills > li > a.active {
-    background-color: #aba1ff !important;
-    color: #ffffff !important;
+    background-color: #aba1ff;
+    color: #ffffff;
   }
   
   .nav-pills > li > a:hover {
-    color: #90ffe3 !important;
+    color: #90ffe3;
   }
   
   .nav-link-color {
