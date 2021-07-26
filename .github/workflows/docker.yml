@@ -18,7 +18,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Login into GitHub Registry
       run: |
-        docker login ghcr.io -u No767 --password-stdin
+        echo $CR_PAT | docker login ghcr.io -u No767 --password-stdin
       env: 
         CR_PAT: ${{ secrets.CR_PAT }}
     - name: Build Docker Image
