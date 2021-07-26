@@ -1,0 +1,33 @@
+name: Docker CI/CD
+
+on: 
+  push:
+    branches:
+      - master
+      - dev 
+  pull_request:
+    branches:
+      - master
+      - dev
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Login into GitHub Registry
+      run: |
+        echo $CR_PAT | docker login ghcr.io -u No767 --password-stdin
+      env: 
+        CR_PAT: ${{ secrets.CR_PAT }}
+    - name: Build Docker Image
+      run: |
+        docker build -t ghcr.io/no767/deltaline:2.1.2
+    - name: Run Docker Image
+      run: | 
+        docker run ghcr.io/no767/deltaline:2.1.2
+    - name: Push Docker Image to GitHub Registry
+      run: |
+        docker push ghcr.io/no767/deltaline:2.1.2
+    
