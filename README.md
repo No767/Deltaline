@@ -10,7 +10,7 @@ Source Code for the Deltaline Website
 <div align=left>
 
 # License
-This repo is licensed under the [GPL-3.0](https://github.com/No767/Deltaline/blob/master/LICENSE.txt) License. Logo is licensed under the the CC-BY-NC-ND 4.0 License, and all other works are all rights reserved. For futher information on the usage of the Logo, please refer to the [docs](https://no767.github.io/-Deltaline-Docs/). And if you are more confused about the licensing, refer to [this](https://no767.github.io/Deltaline-Docs/Licensing/) of the docs
+This repo is licensed under the [GPL-3.0](https://github.com/No767/Deltaline/blob/master/LICENSE.txt) License. Logo is licensed under the the CC-BY-NC-ND 4.0 License, and all other works are all rights reserved. For futher information on the usage of the Logo, please refer to the [docs](https://no767.github.io/-Deltaline-Docs/). And if you are more confused about the licensing, refer to [this](https://no767.github.io/Deltaline-Docs/Licensing/) from the docs
 
 # Contributing
 See [Contributing](https://github.com/No767/Deltaline/blob/master/contributing.md)
@@ -20,11 +20,12 @@ Via [yarn](https://yarnpkg.com/)
 
 `yarn install` 
 
-This site is powered by Netlify, so all commits will be built and deployed on Netlify
 
 Via [Python](https://www.python.org/) and [Django](https://www.djangoproject.com/)
 
-`pip install Django==3.2.5`
+`pip install -r requirements.txt`
+
+This site is powered by Netlify, so all commits will be built and deployed on Netlify
 
 # Dependencies
 
