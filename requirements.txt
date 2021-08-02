@@ -1,2 +1,2 @@
 html5validator == 0.4.0
-django == 3.2.5
+django == 3.2.6
