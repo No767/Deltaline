@@ -33,7 +33,7 @@ This site is powered by Netlify, so all commits will be built and deployed on Ne
 - PopperJS (2.9.2)
 - Bootstrap (5.0.2)
 - Bootstrap-Icons (1.5.0)
-- Sass (1.35.2)
+- Sass (1.37.2)
 - Google Material Icons (3.0.1)
-- Django (3.2.5)
+- Django (3.2.6)
 
