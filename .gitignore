@@ -11,3 +11,4 @@ db.sqlite3
 *db.sqlite3
 *launch.json
 *settings.json
+node_modules
