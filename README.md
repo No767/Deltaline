@@ -30,8 +30,8 @@ This site is powered by Netlify, so all commits will be built and deployed on Ne
 # Dependencies
 
 - Fontawesome (5.15.3)
-- PopperJS (2.9.2)
-- Bootstrap (5.0.2)
+- PopperJS (2.9.3)
+- Bootstrap (5.1.0)
 - Bootstrap-Icons (1.5.0)
 - Sass (1.37.2)
 - Google Material Icons (3.0.1)
