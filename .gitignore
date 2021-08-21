@@ -12,3 +12,5 @@ db.sqlite3
 *launch.json
 *settings.json
 node_modules
+.env
+*env
