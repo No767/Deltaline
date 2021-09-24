@@ -14,3 +14,9 @@ db.sqlite3
 node_modules
 .env
 *env
+.dccache
+*.dccache
+..gitignore.un~
+*..gitignore.un~
+*.gitignore~
+.gitignore~
