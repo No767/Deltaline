@@ -3,7 +3,7 @@
 <div align=center>
 <img type="image/x-icon" src="assets/Deltaline Logo Release V3 (512 Resize).svg">
 
-[![Jekyll site CI](https://github.com/No767/Deltaline/actions/workflows/jekyll.yml/badge.svg?branch=master)](https://github.com/No767/Deltaline/actions/workflows/jekyll.yml) [![Django CI](https://github.com/No767/Deltaline/actions/workflows/django.yml/badge.svg?branch=dev)](https://github.com/No767/Deltaline/actions/workflows/django.yml) [![Netlify Status](https://api.netlify.com/api/v1/badges/e8232711-1bd5-4e73-b5a9-92af059e2486/deploy-status)](https://app.netlify.com/sites/deltaline/deploys) <img alt="Travis (.com)" src="https://img.shields.io/travis/com/No767/Deltaline?label=Travis%20CI"> ![Docker Pulls](https://img.shields.io/docker/pulls/no767/deltaline?label=Docker%20Pulls&logo=docker) <img src="https://www.codefactor.io/repository/github/no767/deltaline/badge" alt="CodeFactor" /></a> <a href="https://www.codacy.com/gh/No767/Deltaline/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=No767/Deltaline&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/dafe967dfb4a43d7ba1239a26b439721"/></a> <img alt="GitHub" src="https://img.shields.io/github/license/No767/Deltaline">
+[![Django CI](https://github.com/No767/Deltaline/actions/workflows/django.yml/badge.svg?branch=dev)](https://github.com/No767/Deltaline/actions/workflows/django.yml) [![Netlify Status](https://api.netlify.com/api/v1/badges/e8232711-1bd5-4e73-b5a9-92af059e2486/deploy-status)](https://app.netlify.com/sites/deltaline/deploys) ![Docker Pulls](https://img.shields.io/docker/pulls/no767/deltaline?label=Docker%20Pulls&logo=docker) [![CodeFactor](https://www.codefactor.io/repository/github/no767/deltaline/badge)](https://www.codefactor.io/repository/github/no767/deltaline) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/dafe967dfb4a43d7ba1239a26b439721)](https://www.codacy.com/gh/No767/Deltaline/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=No767/Deltaline&amp;utm_campaign=Badge_Grade) ![GitHub](https://img.shields.io/github/license/No767/Deltaline?label=License&logo=github)
 
 Source Code for the Deltaline Website
 
@@ -26,14 +26,3 @@ Via [Python](https://www.python.org/) and [Django](https://www.djangoproject.com
 `pip install -r requirements.txt`
 
 This site is powered by Netlify, so all commits will be built and deployed on Netlify
-
-# Dependencies
-
-- Fontawesome (5.15.3)
-- PopperJS (2.9.3)
-- Bootstrap (5.1.0)
-- Bootstrap-Icons (1.5.0)
-- Sass (1.37.2)
-- Google Material Icons (3.0.1)
-- Django (3.2.6)
-
