@@ -1,6 +1,6 @@
 FROM nginx:alpine
 
-WORKDIR /dockersite
+WORKDIR /site
 
 COPY ./dockersite /usr/share/nginx/html
 
