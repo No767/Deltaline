@@ -50,6 +50,7 @@
 
 .bi-github {
     padding-right: 1rem;
+    color: white;
 }
 
 .bi-house {
@@ -93,32 +94,30 @@
 
 .jumbotron-2 {
   display: flex;
-  background-image: linear-gradient(120deg, #9c9fff, #b8eeff, #ed94ff);
+  background-image: url("assets/background.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 2;
 }
 
 .row-one {
   background-color: #d1f4ff;
 }
 
-@media only screen and (max-width: 993px) {
-  .block {
-    text-align: center;
-  }
-
-}
 
 .material-icons.md-48 {
   font-size: 150px;
 }
 
 .btn {
-  background-color: #bddfff;
+  background-color: #ffffff;
   color: black;
   font-size: 20px;
 }
 
 .btn-outline-dark:hover {
-  background-color: rgb(210, 235, 255);
+  background-color: rgb(189, 189, 189);
   color: rgb(0, 0, 0)
 }
 
@@ -137,4 +136,17 @@
 
 .font { 
   font-size: 36px;
+}
+
+
+.adjust {
+  font-size: 128px;
+}
+
+.coloring {
+  color: white;
+}
+
+.padv5 {
+  padding-top: 8rem;
 }
