@@ -1,25 +1,25 @@
 .jumbotron-3 {
-    display: flex;
-    background-image: linear-gradient(120deg, #9c9fff, #b8eeff, #ed94ff);
+  display: flex;
+  background-image: url("assets/backgroundv2.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 2;
   }
 
 .more-space2 {
-    height: 20rem;
+    height: 24rem;
 }
 
-@media only screen and (max-width: 600px) {
-    .jumbotron-3 {
-        display: flex;
-        background-image: linear-gradient(120deg, #9c9fff, #b8eeff, #ed94ff);
-      }
+body {
+  font-family: "PT Sans", sans-serif;
+  background-color:rgb(151, 151, 151)
 }
 
-.row-onev2 {
-  background-color: white;
+.links {
+  color: rgb(255, 162, 255);
 }
 
-
-.header-font {
-  font-family: 'Courier New', Courier, monospace;
-  
+.links:hover {
+  color: rgb(208, 172, 255);
 }
