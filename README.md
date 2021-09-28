@@ -21,8 +21,8 @@ Via [yarn](https://yarnpkg.com/)
 `yarn install` 
 
 
-Via [Python](https://www.python.org/) and [Django](https://www.djangoproject.com/)
+Via [Python](https://www.python.org/), [Django](https://www.djangoproject.com/) and [Pipenv](https://pipenv.pypa.io/en/latest/)
 
-`pip install -r requirements.txt`
+`pipenv install`
 
 This site is powered by Netlify, so all commits will be built and deployed on Netlify
