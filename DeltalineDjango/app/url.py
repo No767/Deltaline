@@ -1,3 +1,6 @@
-from django.conf.urls import patterns, include, url
+from django.conf.urls import include, patterns, url
 
-urlpatterns = patterns('', url(r'^hello/', 'app.views.hello', name = 'hello'),)
+urlpatterns = patterns(
+    "",
+    url(r"^hello/", "app.views.hello", name="hello"),
+)
