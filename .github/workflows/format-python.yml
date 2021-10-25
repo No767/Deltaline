@@ -1,0 +1,47 @@
+name: Format (Python)
+on:
+  push:
+    branches:
+      - master
+      - dev
+
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+      - name: Upgrade Pip, Setuptools, and Wheel
+        run: |
+          pip install --upgrade pip setuptools wheel
+      - name: Install Pipenv
+        run: |
+          pip install pipenv
+      - name: Install Pipenv Dependencies 
+        run: |
+          pipenv install
+      - name: Format with Black
+        run: |
+          pipenv run black DeltalineDjango/DeltalineDjango DeltalineDjango/app
+      - name: Format with Isort
+        run: |
+          pipenv run isort DeltalineDjango/DeltalineDjango DeltalineDjango/app
+      - name: Format with AutoPEP8
+        run: |
+          pipenv run autopep8 -r --in-place DeltalineDjango/DeltalineDjango DeltalineDjango/app
+      - name: Commit and Push
+        uses: EndBug/add-and-commit@v7
+        with:
+          default_author: github_actions
+          message: 'Format All Django Apps'
+          add: 'DeltalineDjango/DeltalineDjango DeltalineDjango/app --force --all'
+          push: true
+          branch: dev
+          pull: '--no-rebase'

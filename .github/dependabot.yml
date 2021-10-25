@@ -12,6 +12,7 @@ updates:
     commit-message:
       prefix: "[npm/yarn]"
       include: "scope"
+    target-branch: "dev"
   
   - package-ecosystem: "pip"
     directory: "/"
@@ -20,3 +21,4 @@ updates:
     commit-message:
       prefix: "[pip]"
       include: "scope"
+    target-branch: "dev"
