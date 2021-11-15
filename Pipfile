@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 html5validator = "==0.4.0"
-python-dotenv = "==0.19.1"
+python-dotenv = "==0.19.2"
 django-environ = "==0.8.1"
 django-secrets = "==1.0.2"
 Django = "==3.2.9"
