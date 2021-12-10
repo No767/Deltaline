@@ -38,7 +38,7 @@ jobs:
           pipenv run autopep8 -r --in-place DeltalineDjango/DeltalineDjango DeltalineDjango/app
       - name: Format with AutoFlake
         run: |
-          pipenv run autoflake --in-place --remove-unused-variables --remove-all-unused-imports --recursive Deltaline/DeltalineDjango Deltaline/app
+          pipenv run autoflake --in-place --remove-unused-variables --remove-all-unused-imports --recursive DeltalineDjango/DeltalineDjango DeltalineDjango/app
       - name: Commit and Push
         uses: EndBug/add-and-commit@v7
         with:
