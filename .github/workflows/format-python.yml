@@ -10,7 +10,7 @@ on:
       - master
 
 jobs:
-  format:
+  Format:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -36,6 +36,9 @@ jobs:
       - name: Format with AutoPEP8
         run: |
           pipenv run autopep8 -r --in-place DeltalineDjango/DeltalineDjango DeltalineDjango/app
+      - name: Format with AutoFlake
+        run: |
+          pipenv run autoflake --in-place --remove-unused-variables --remove-all-unused-imports --recursive Deltaline/DeltalineDjango Deltaline/app
       - name: Commit and Push
         uses: EndBug/add-and-commit@v7
         with:
