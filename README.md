@@ -16,13 +16,38 @@ This repo is licensed under the [GPL-3.0](https://github.com/No767/Deltaline/blo
 See [Contributing](https://github.com/No767/Deltaline/blob/master/Community/contributing.md)
 # Building
 
-Via [yarn](https://yarnpkg.com/)
-
-`yarn install` 
-
-
-Via [Python](https://www.python.org/), [Django](https://www.djangoproject.com/) and [Pipenv](https://pipenv.pypa.io/en/latest/)
+Via [Pipenv](https://pipenv.pypa.io/en/latest/)
 
 `pipenv install`
 
-This site is powered by Netlify, so all commits will be built and deployed on Netlify
+If you haven't gotten the environment set up, run this in the root directory of the repo:
+
+`pipenv --python 3.10`
+
+There are 2 versions: One made with Django, and the other made with Flask. 
+
+For running the Django dev server: 
+
+```
+cd DeltalineDjango 
+pipenv run python manage.py runserver
+```
+
+For running the Flask dev server: 
+
+Windows:
+
+```
+cd Deltaline-Flask 
+set FLASK_APP=index 
+pipenv run flask run
+```
+
+Linux/MacOS:
+
+```
+cd Deltaline-Flask
+export FLASK_APP=index
+pipenv run flask run
+```
+
