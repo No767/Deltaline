@@ -6,7 +6,6 @@ name = "pypi"
 [packages]
 html5validator = "*"
 python-dotenv = "*"
-django = "*"
 orjson = "*"
 sanic = "*"
 
