@@ -1,6 +1,93 @@
 # Contributing
 You are free to contribute into this repo. The Code of Conduct still appiles here, so make sure to read that first. 
 
+## Requirements
+
+- Python 3.10 
+- Git
+- Pipenv
+- WSL2 (If working on Windows)
+- Node.js + npm (If working on Frontend)
+- Node Version Manager (NVM)
+
+## Sanic (Backend)
+### Windows
+
+1. Install [WSL2](https://docs.microsoft.com/en-us/windows/wsl/). Uvloop does not have Windows support nor does the owner want to add it.
+
+2. Compile Python 3.10 from source (or install it with your package manager). If you need a guide, [here's](https://realpython.com/installing-python/#how-to-build-python-from-source-code) one. Note that this guide is for Ubuntu 20.04, so depending on your distro, it may be different.
+3. Install [Pipenv](https://pipenv.readthedocs.io/en/latest/). To do so, run this command:
+
+```sh
+sudo python3.10 -m pip install --upgrade pipenv
+```
+
+4. Clone this repo.
+5. Create the Pipenv. To do so, run this command: 
+
+```sh
+pipenv --python 3.10
+```
+
+6. `cd` into the cloned repo and install all the dependencies by running this command:
+
+```sh
+pipenv install
+```
+7. (Optional) If you are using PyCharm, make sure to set the Python Interpreter to WSL and specify the Python interpreter to use. For this, the file path will be usually here:
+
+```sh
+$HOME/.local/share/virtualenvs/[Project Name]/bin/python3.10
+```
+
+Or if you using VS Code, install the [WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) Extension for VS Code, and follow steps 1-6. Then connect to WSL. 
+
+### Linux
+
+1. Compile Python 3.10 from source (or install it with your package manager). If you need a guide, [here's](https://realpython.com/installing-python/#how-to-build-python-from-source-code) one. Note that this guide is for Ubuntu 20.04, so depending on your distro, it may be different.
+2. Install [Pipenv](https://pipenv.readthedocs.io/en/latest/). To do so, run this command:
+
+```sh
+sudo python3.10 -m pip install --upgrade pipenv
+```
+
+3. Clone this repo.
+4. Create the Pipenv. To do so, run this command: 
+
+```sh
+pipenv --python 3.10
+```
+
+5. `cd` into the cloned repo and install all the dependencies by running this command:
+
+```sh
+pipenv install
+```
+
+### MacOS
+
+**Note that I have not tested MacOS yet. If you find any errors, please let me know by submitting a GitHub Issue Report.**
+
+1. Install Python 3.10. This can be installed with the installer or compiled from source (Or use Homebrew). Either way it doesn't matter. 
+2. Install [Pipenv](https://pipenv.readthedocs.io/en/latest/). To do so, run this command:
+
+```sh
+python -m pip install --upgrade pipenv
+```
+
+3. Clone this repo. 
+4. Create the Pipenv. To do so, run this command: 
+
+```sh
+pipenv --python 3.10
+```
+
+5. `cd` into the cloned repo and install all the dependencies by running this command:
+
+```sh
+pipenv install
+```
+
 ## Styleguides
 
 ### Git Commit Messages
@@ -50,18 +137,6 @@ Please make sure that the code is readable and clean. for example,
 this one is too messy and it's kinda hard to read
 
 **Long story short**: Just make it easy to read
-
-## Dependencies
-
-This repo will start using the Django Framework to make things... faster and more smoother to say the least. The requirements are listed below:
-
-- Python 3.6 and above (Devloped in Python 3.9.6)
-- Django 3.2.5 LTS (should be already listed within the requirements.txt as a lib)
-- Pip (comes bundled with Python 3)
-- Yarn or npm 
-- Bootstrap
-- Material Icons
-- (*optional*) An IDE like VS Code or PyCharm. This will make things a lot easier to work with.
 
 ## Getting Started
 

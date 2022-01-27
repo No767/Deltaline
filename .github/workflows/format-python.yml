@@ -23,7 +23,7 @@ jobs:
           pip install --upgrade pip pipenv
       - name: Install Pipenv Dependencies 
         run: |
-          pipenv install
+          pipenv install --dev
       - name: Format with Black
         run: |
           pipenv run black DeltalineDjango/DeltalineDjango DeltalineDjango/app
