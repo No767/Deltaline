@@ -10,7 +10,7 @@ python = "^3.10"
 fastapi = "^0.75.0"
 orjson = "^3.6.7"
 uvicorn = {extras = ["standard"], version = "^0.17.6"}
-SQLAlchemy = "^1.4.32"
+SQLAlchemy = "^1.4.35"
 aiosqlite = "^0.17.0"
 
 [tool.poetry.dev-dependencies]
