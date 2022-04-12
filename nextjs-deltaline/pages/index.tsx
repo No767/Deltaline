@@ -1,7 +1,10 @@
+import { Body } from './../lib/index-components/body';
+import { Footer } from './../lib/index-components/footer';
+import { HeroHeader } from './../lib/index-components/hero-header';
 import { Navbar } from './../lib/index-components/navbar';
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import { MantineProvider } from "@mantine/core"
+import type { NextPage } from 'next';
+import Head from 'next/head';
+import { MantineProvider } from "@mantine/core";
 
 
 const Home: NextPage = () => {
@@ -14,7 +17,10 @@ const Home: NextPage = () => {
             rel="stylesheet"
           />
       </Head>
-    <Navbar   undefined={undefined}  />
+      <Navbar   undefined={undefined}  />
+      <HeroHeader     />
+      <Body     />
+      <Footer     />
     </div>
     </MantineProvider>
   )
