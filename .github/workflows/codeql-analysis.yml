@@ -2,15 +2,11 @@ name: "CodeQL"
 
 on:
   push:
-    branches:
-      - master
-      - dev
-    
+    branches: [master, dev]
   pull_request:
-    branches:
-      - dev
+    branches: [master, dev]
   schedule:
-    - cron: '36 7 * * 0'
+    - cron: "29 16 * * 1"
 
 jobs:
   Analyze:
@@ -20,35 +16,34 @@ jobs:
       actions: read
       contents: read
       security-events: write
-
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v2
-    - name: Set up Python 3.10.2
-      id: setup-python
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.10.2
-    - name: Upgrade Pip + Install Pipenv
-      run: |
-        python3 -m pip install --upgrade pip setuptools pipenv
-    - name: Cache Pipenv
-      id: cache-pipenv
-      uses: actions/cache@v2.1.7
-      with:
-          path: ~/.local/share/virtualenvs
-          key: ${{ runner.os }}-pipenv-${{ hashFiles('**/Pipfile.lock') }}
-    - name: Install Pipenv Dependencies
-      if: steps.cache-pipenv.outputs.cache-hit != 'true'
-      run: |
-          pipenv install
-    - name: Initialize CodeQL
-      uses: github/codeql-action/init@v1
-      with:
-        languages: python
-        setup-python-dependencies: false
-    - name: Perform CodeQL Analysis
-      uses: github/codeql-action/analyze@v1
-      with:
-        upload: true
-
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "17"
+      - name: Cache/Uncache npm dependencies
+        id: cache-npm
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      - name: Install npm dependencies
+        if: steps.cache-npm.outputs.cache-hit != 'true'
+        run: |
+          cd nextjs-deltaline
+          npm install
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v1
+        with:
+          languages: javascript
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v1
+        with:
+          upload: true
+© 2022 GitHub, Inc.
+Terms
+Priv
