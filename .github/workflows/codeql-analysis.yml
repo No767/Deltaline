@@ -44,6 +44,3 @@ jobs:
         uses: github/codeql-action/analyze@v1
         with:
           upload: true
-© 2022 GitHub, Inc.
-Terms
-Priv
