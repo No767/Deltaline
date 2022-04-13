@@ -41,8 +41,7 @@ jobs:
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
-          args: --sarif-file-output=snyk.sarif
-        run: cd nextjs-deltaline
+          args: --sarif-file-output=snyk.sarif --all-projects --exclude=site
       - name: Upload result to GitHub Code Scanning
         uses: github/codeql-action/upload-sarif@v1
         with:
