@@ -9,11 +9,9 @@ on:
 jobs:
   Analyze:
     runs-on: ubuntu-latest
-    defaults:
-      run: 
-        working-directory: nextjs-deltaline
-      snyk-test: 
-        working-directory: nextjs-deltaline
+    env:
+      working-directory: ./nextjs-deltaline
+
     steps:
       - name: Checkout Repository  
         uses: actions/checkout@v2
@@ -31,6 +29,7 @@ jobs:
             ${{ runner.os }}-node-
       - name: Install npm dependencies
         if: steps.cache-npm.outputs.cache-hit != 'true'
+        working-directory: ${{env.working-directory}}
         run: |
           npm install
       - name: Install Snyk CLI
@@ -41,7 +40,7 @@ jobs:
           snyk auth ${{ secrets.SNYK_TOKEN }}
       - name: Run Snyk
         uses: snyk/actions/node@master
-        id: snyk-test
+        working-directory: ${{env.working-directory}}
         continue-on-error: true
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
