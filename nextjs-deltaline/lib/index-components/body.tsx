@@ -1,18 +1,9 @@
 import React from "react";
 
-import {
-  Text,
-  Group,
-  Title,
-  BackgroundImage,
-  Image,
-  Divider,
-  Button,
-  Grid,
-} from "@mantine/core";
+import { Text, Group, Title, Divider, Button } from "@mantine/core";
 import { MdSpeed } from "react-icons/md";
 import { FaGithub, FaQuestion } from "react-icons/fa";
-import { SiReadthedocs, SiNextdotjs, SiNetlify } from "react-icons/si";
+import { SiReadthedocs } from "react-icons/si";
 
 export function Body({}) {
   return (

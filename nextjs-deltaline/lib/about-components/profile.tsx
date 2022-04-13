@@ -10,6 +10,7 @@ import {
   Group,
 } from "@mantine/core";
 import { FaGithub, FaGitlab } from "react-icons/fa";
+
 export function Profile({}) {
   return (
     <>
