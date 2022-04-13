@@ -10,7 +10,10 @@ jobs:
   Analyze:
     runs-on: ubuntu-latest
     defaults:
-      working-directory: nextjs-deltaline
+      run: 
+        working-directory: nextjs-deltaline
+      snyk-test: 
+        working-directory: nextjs-deltaline
     steps:
       - name: Checkout Repository  
         uses: actions/checkout@v2
@@ -38,6 +41,7 @@ jobs:
           snyk auth ${{ secrets.SNYK_TOKEN }}
       - name: Run Snyk
         uses: snyk/actions/node@master
+        id: snyk-test
         continue-on-error: true
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
