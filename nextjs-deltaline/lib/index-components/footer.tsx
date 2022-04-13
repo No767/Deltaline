@@ -1,10 +1,13 @@
 import React from "react";
 
 import { Text, Group, Grid } from "@mantine/core";
-import { SiNextdotjs, SiNetlify } from "react-icons/si"
+import { SiNextdotjs, SiNetlify } from "react-icons/si";
 
 export function Footer({}) {
-  return <>    <Group position="center" direction="column" spacing="sm" pt={75}>
+  return (
+    <>
+      {" "}
+      <Group position="center" direction="column" spacing="sm" pt={75}>
         <Text size="md" align="center" color="white">
           Built With and Powered By
         </Text>
@@ -17,11 +20,17 @@ export function Footer({}) {
           </Grid.Col>
         </Grid>
       </Group>
-      <Text size="md" align="center" color="white" sx={{
-      paddingTop: 30,
-      paddingBottom: 30
-    }}>
+      <Text
+        size="md"
+        align="center"
+        color="white"
+        sx={{
+          paddingTop: 30,
+          paddingBottom: 30,
+        }}
+      >
         ©2022 No767 - Licensed under GPL-3.0
-      </Text></>;
+      </Text>
+    </>
+  );
 }
-  
