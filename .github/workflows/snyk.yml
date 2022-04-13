@@ -37,6 +37,7 @@ jobs:
           snyk auth ${{ secrets.SNYK_TOKEN }}
       - name: Run Snyk
         uses: snyk/actions/node@master
+        working-directory: ./nextjs-deltaline
         continue-on-error: true
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
