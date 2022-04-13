@@ -18,7 +18,7 @@ nextjs-deltaline/.next
 .next/
 *.next/
 .next
-nextjs-deltaline/pacakge.json
+nextjs-deltaline/package.json
 nextjs-deltaline/package-lock.json
 nextjs-deltaline/README.md
 nextjs-deltaline/tsconfig.json
@@ -29,3 +29,7 @@ nextjs-deltaline/.gitignore
 nextjs-deltaline/.eslintignore
 nextjs-deltaline/node_modules
 nextjs-deltaline/.vscode
+nextjs-deltaline/.eslintrc.json
+nextjs-deltaline/next-env.d.ts
+nextjs-deltaline/next.config.js
+nextjs-deltaline/tsconfig.json
