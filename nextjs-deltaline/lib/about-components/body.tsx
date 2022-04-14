@@ -77,7 +77,7 @@ export function Body({}) {
           Portfolio&quot;, so if our employer asks, we can use this on our
           resume. The Digital Portfolio also acts as an archive for all of the
           old schoolwork. Deltaline had been originally made on Google Sites,
-          since this locks into Google's wide ecosystem targeted at the
+          since this locks into Google&apos;s wide ecosystem targeted at the
           education sector. This is meant to house the World History (now
           deprecated, will not get any support) and Japanese section. This
           primarily focuses on the Japanese section, but by the end of the

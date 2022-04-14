@@ -38,7 +38,7 @@ export function Body({}) {
         pt={35}
         mx={75}
       >
-        So, what's the difference between this website and the digital
+        So, what&apos;s the difference between this website and the digital
         portfolio?
       </Title>
 
@@ -99,9 +99,9 @@ export function Body({}) {
           Completely Documented
         </Title>
         <Text size="xl" align="center">
-          Have a question on how it's built? Or interested in the design process
-          and other information? Well, the documentation is there for you to
-          take a look.
+          Have a question on how it&apos;s built? Or interested in the design
+          process and other information? Well, the documentation is there for
+          you to take a look.
         </Text>
         <Button
           variant="outline"

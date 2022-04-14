@@ -23,7 +23,7 @@ const Home: NextPage = () => {
             rel="stylesheet"
           />
         </Head>
-        <Navbar undefined={undefined} />
+        <Navbar />
         <HeroHeader />
         <Body />
         <Footer />
