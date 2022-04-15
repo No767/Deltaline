@@ -11,7 +11,7 @@ export function HeroHeader({}) {
     >
       <Group align="center" direction="column" spacing="xs" mx={50}>
         <Image
-          src="https://raw.githubusercontent.com/No767/Deltaline/dev/site/img/Deltaline%20Logo%20Release%20V3%20(512%20Resize).svg"
+          src="https://raw.githubusercontent.com/No767/Deltaline/dev/assets/Deltaline-Logo-V2.1.svg"
           height={256}
           width={256}
           sx={{
