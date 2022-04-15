@@ -3,7 +3,7 @@
 # Deltaline
 
 
-<img type="image/x-icon" src="assets/Deltaline Logo Release V3 (512 Resize).svg">
+<img type="image/x-icon" src="assets/Deltaline-Logo-V2-SVG.svg">
 
 ![GitHub package.json dependency version (subfolder of monorepo)](https://img.shields.io/github/package-json/dependency-version/No767/Deltaline/next?filename=nextjs-deltaline%2Fpackage.json&label=Next.js&logo=nextdotjs) [![CodeQL](https://github.com/No767/Deltaline/actions/workflows/codeql-analysis.yml/badge.svg?branch=dev)](https://github.com/No767/Deltaline/actions/workflows/codeql-analysis.yml) [![Snyk](https://github.com/No767/Deltaline/actions/workflows/snyk.yml/badge.svg?branch=dev)](https://github.com/No767/Deltaline/actions/workflows/snyk.yml) [![Netlify Status](https://api.netlify.com/api/v1/badges/e8232711-1bd5-4e73-b5a9-92af059e2486/deploy-status)](https://app.netlify.com/sites/deltaline/deploys) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/dafe967dfb4a43d7ba1239a26b439721)](https://www.codacy.com/gh/No767/Deltaline/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=No767/Deltaline&amp;utm_campaign=Badge_Grade) ![GitHub](https://img.shields.io/github/license/No767/Deltaline?label=License&logo=github)
 
