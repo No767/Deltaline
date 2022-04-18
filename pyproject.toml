@@ -8,7 +8,7 @@ license = "GPL-3.0"
 [tool.poetry.dependencies]
 python = "^3.10"
 fastapi = "^0.75.1"
-orjson = "^3.6.7"
+orjson = "^3.6.8"
 uvicorn = {extras = ["standard"], version = "^0.17.6"}
 SQLAlchemy = "^1.4.35"
 aiosqlite = "^0.17.0"
