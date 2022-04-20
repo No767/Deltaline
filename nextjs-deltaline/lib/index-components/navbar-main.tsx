@@ -1,31 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
+import { NextLink } from "@mantine/next";
 import { Button } from "@mantine/core";
-import {
-  AppShell,
-  Header,
-  Text,
-  Group,
-  Navbar,
-  MediaQuery,
-  Burger,
-} from "@mantine/core";
+import { AppShell, Header, Text, Group } from "@mantine/core";
 import { SiGithub } from "react-icons/si";
 import { BsBook, BsFlower1, BsFlower2, BsInfoCircle } from "react-icons/bs";
 import { Menu, Avatar } from "@mantine/core";
 
 export function NavbarMain({}) {
-  const [opened, setOpened] = useState(false);
   return (
     <AppShell>
       <Header height={60} fixed={true}>
-        <MediaQuery largerThan="sm" styles={{ display: "none" }}>
-          <Burger
-            opened={opened}
-            onClick={() => setOpened((o) => !o)}
-            size="sm"
-            mr="xl"
-          />
-        </MediaQuery>
         <Group spacing="xl" position="apart">
           <Avatar
             src="https://raw.githubusercontent.com/No767/Deltaline/dev/assets/Deltaline-Logo-V2.1.svg"
@@ -84,19 +68,26 @@ export function NavbarMain({}) {
               placement="center"
               size="md"
             >
-              <Menu.Item icon={<BsFlower1 />} component="a" href="/japanese-1">
+              <Menu.Item
+                icon={<BsFlower1 />}
+                component={NextLink}
+                href="/japanese-1"
+                target="_blank"
+              >
                 Japanese 1
               </Menu.Item>
-              <Menu.Item icon={<BsFlower2 />} component="a" href="/japanese-2">
+              <Menu.Item
+                icon={<BsFlower2 />}
+                component={NextLink}
+                href="/japanese-2"
+                target="_blank"
+              >
                 Japanese 2
               </Menu.Item>
             </Menu>
           </Group>
         </Group>
       </Header>
-      <Navbar hiddenBreakpoint="xl" hidden={!opened} height={250}>
-        <Text>Application navbar</Text>
-      </Navbar>
     </AppShell>
   );
 }

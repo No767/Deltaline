@@ -12,6 +12,8 @@ import {
   SiUbuntu,
   SiFedora,
   SiOpensuse,
+  SiArchlinux,
+  SiGentoo,
 } from "react-icons/si";
 
 export function Body({}) {
@@ -50,6 +52,8 @@ export function Body({}) {
           <SiUbuntu />
           <SiFedora />
           <SiOpensuse />
+          <SiArchlinux />
+          <SiGentoo />
         </Group>
       </Stack>
       <Divider
