@@ -72,7 +72,7 @@ export function NavbarMain({}) {
                 icon={<BsFlower1 />}
                 component={NextLink}
                 href="/japanese-1"
-                target="_blank"
+                target="_self"
               >
                 Japanese 1
               </Menu.Item>
@@ -80,7 +80,7 @@ export function NavbarMain({}) {
                 icon={<BsFlower2 />}
                 component={NextLink}
                 href="/japanese-2"
-                target="_blank"
+                target="_self"
               >
                 Japanese 2
               </Menu.Item>
