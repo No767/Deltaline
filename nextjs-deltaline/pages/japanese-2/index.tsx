@@ -31,6 +31,29 @@ const japanese2: NextPage = () => {
           どうぞよろしくお願いします。
         </Text>
       </Group>
+
+      <Group
+        align="center"
+        position="center"
+        direction="row"
+        spacing="md"
+        pt={50}
+      >
+        <Image
+          src="https://raw.githubusercontent.com/No767/Deltaline/dev/nextjs-deltaline/assets/(2-18-2022)%20U4%20JPN%20Brochure_1.jpg"
+          radius="md"
+          alt="Front"
+          width={256}
+          height={512}
+        />
+        <Image
+          src="https://raw.githubusercontent.com/No767/Deltaline/dev/nextjs-deltaline/assets/(2-18-2022)%20U4%20JPN%20Brochure%20Pg%201_1.jpg"
+          radius="md"
+          alt="Letter to Saijo V2 Pg 2"
+          width={256}
+          height={256}
+        />
+      </Group>
     </div>
   );
 };
