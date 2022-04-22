@@ -14,10 +14,10 @@ A Open-Source Digital Portfolio for Classwork
 
 <div align=left>
 
-# Getting Started (For Developers)
+## Getting Started (For Developers)
 Under the hood, Deltaline uses [Next.js](https://nextjs.org). TypeScript support is already included out of the box.
 
-## Requirements
+### Requirements
 
 - Node
 - Git
