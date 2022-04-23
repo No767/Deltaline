@@ -6,9 +6,9 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
-    directory: "/"
+    directory: "/nextjs-deltaline"
     schedule:
-      interval: "weekly"
+      interval: "daily"
     commit-message:
       prefix: "[npm/yarn]"
       include: "scope"
