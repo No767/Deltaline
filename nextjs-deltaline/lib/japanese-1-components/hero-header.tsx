@@ -5,7 +5,7 @@ import { Group, Title, BackgroundImage } from "@mantine/core";
 export function Jpn1HeroHeader({}) {
   return (
     <BackgroundImage
-      src="https://raw.githubusercontent.com/No767/Deltaline/dev/site/css/assets/background.webp"
+      src="https://raw.githubusercontent.com/No767/Deltaline/dev/nextjs-deltaline/background-assets/background.webp"
       sx={{
         height: 350,
       }}

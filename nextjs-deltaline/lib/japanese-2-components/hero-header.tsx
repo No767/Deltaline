@@ -3,7 +3,7 @@ import { Group, Title, BackgroundImage } from "@mantine/core";
 export function HeroHeader({}) {
   return (
     <BackgroundImage
-      src="https://raw.githubusercontent.com/No767/Deltaline/dev/nextjs-deltaline/assets/backgroundv4.webp"
+      src="https://raw.githubusercontent.com/No767/Deltaline/dev/nextjs-deltaline/background-assets/backgroundv4.webp"
       sx={{
         height: 350,
       }}

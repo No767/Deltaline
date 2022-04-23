@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Text, Group, Title, Divider, Button } from "@mantine/core";
+import { NextLink } from "@mantine/next";
 import { MdSpeed } from "react-icons/md";
 import { FaGithub, FaQuestion } from "react-icons/fa";
 import { SiReadthedocs } from "react-icons/si";
@@ -110,8 +111,9 @@ export function Body({}) {
             color: "#FFFFFF",
           }}
           leftIcon={<SiReadthedocs />}
-          component="a"
-          href="https://deltaline-docs.readthedocs.io/en/latest/"
+          component={NextLink}
+          href="https://deltaline-docs.netlify.app/"
+          target="_self"
         >
           Docs
         </Button>

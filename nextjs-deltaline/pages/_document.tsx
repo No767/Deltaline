@@ -13,6 +13,11 @@ export default class _Document extends Document {
             href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
             rel="stylesheet"
           />
+          <link
+            rel="shortcut icon"
+            type="image/x-icon"
+            href="Deltaline-Logo-V2.1.svg"
+          />
         </Head>
         <Main />
         <NextScript />
