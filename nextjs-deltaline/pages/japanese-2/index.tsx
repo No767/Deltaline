@@ -216,6 +216,35 @@ const japanese2: NextPage = () => {
       </Stack>
 
       <Divider size="xs" mt={35} mx={125} />
+
+      <Group
+        align="center"
+        position="center"
+        direction="row"
+        spacing="md"
+        pt={50}
+      >
+        <Image
+          src="https://raw.githubusercontent.com/No767/Deltaline/dev/nextjs-deltaline/assets/LTR-Saijo-V3-Haruto-1.png"
+          radius="md"
+          alt="LTR-Saijo-V4"
+          caption="2022 Ema Card
+          "
+        />
+        <Image
+          src="https://raw.githubusercontent.com/No767/Deltaline/dev/nextjs-deltaline/assets/nengajo.jpg"
+          radius="md"
+          alt="Letter to Saijo V2 Pg 2"
+          caption="2022 Nengajo Card"
+        />
+        <Image
+          src="https://raw.githubusercontent.com/No767/Deltaline/dev/nextjs-deltaline/assets/omikuji.jpg"
+          radius="md"
+          alt="omikuji"
+          caption="おみくじ (Fortune Card)
+          "
+        />
+      </Group>
     </div>
   );
 };
