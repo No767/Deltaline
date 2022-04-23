@@ -33,8 +33,12 @@ export function Body1({}) {
         }}
         mx={50}
       >
-        <Title order={3}>Letter to Saijo V2</Title>
-        <Title order={4}>2021/5/16</Title>
+        <Title order={3} align="center">
+          Letter to Saijo V2
+        </Title>
+        <Title order={4} align="center">
+          2021/5/16
+        </Title>
         <Text size="lg" align="center">
           This one is about the Letter to Saijo V2. Well, this is kinda the same
           thing with the first one but this time, instead of introducing

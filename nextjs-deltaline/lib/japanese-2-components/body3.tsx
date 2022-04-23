@@ -57,8 +57,12 @@ export function Body3({}) {
         }}
         mx={50}
       >
-        <Title order={3}>Letter to Saijo V4</Title>
-        <Title order={4}>十二月十日</Title>
+        <Title order={3} align="center">
+          Letter to Saijo V4
+        </Title>
+        <Title order={4} align="center">
+          十二月十日
+        </Title>
         <Text size="lg" align="center">
           Well, it&apos;s been a while. And I have come with another version of
           the Saijo Letter. This time it is the v4 or the 4th version. This time

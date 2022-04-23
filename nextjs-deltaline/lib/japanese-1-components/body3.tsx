@@ -34,8 +34,12 @@ export function Body3({}) {
         }}
         mx={50}
       >
-        <Title order={3}>March Challenge</Title>
-        <Title order={4}>2021/4/7</Title>
+        <Title order={3} align="center">
+          March Challenge
+        </Title>
+        <Title order={4} align="center">
+          2021/4/7
+        </Title>
         <Text size="lg" align="center">
           Well, another month has passed. And that means another challenge, and
           in this case, it&apos;s the March Challenge. This one is a little bit

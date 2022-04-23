@@ -26,6 +26,7 @@ export function Body({}) {
             color: "#FFFFFF",
           }}
           pt={25}
+          align="center"
         >
           About
         </Title>
@@ -42,6 +43,7 @@ export function Body({}) {
           sx={{
             color: "#FFFFFF",
           }}
+          mx={50}
         >
           <SiPython />
           <SiJavascript />
@@ -71,6 +73,7 @@ export function Body({}) {
             color: "#FFFFFF",
           }}
           pt={25}
+          align="center"
         >
           Deltaline
         </Title>
@@ -148,6 +151,7 @@ export function Body({}) {
             color: "#FFFFFF",
           }}
           pt={25}
+          align="center"
         >
           The Inner Workings of Deltaline
         </Title>

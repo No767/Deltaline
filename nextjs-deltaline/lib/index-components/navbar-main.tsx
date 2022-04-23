@@ -13,7 +13,6 @@ export function NavbarMain({}) {
       <Drawer
         opened={opened}
         onClose={() => setOpened(false)}
-        title="Navigation"
         padding="xl"
         size="xl"
         transition="rotate-left"
