@@ -35,7 +35,7 @@ const japanese2: NextPage = () => {
       <Group
         align="center"
         position="center"
-        direction="row"
+        direction="column"
         spacing="md"
         pt={50}
       >
