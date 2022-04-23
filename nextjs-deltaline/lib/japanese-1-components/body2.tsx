@@ -11,6 +11,7 @@ export function Body2({}) {
         direction="row"
         spacing="md"
         pt={50}
+        mx={50}
       >
         <Image
           src="https://raw.githubusercontent.com/No767/Deltaline/dev/nextjs-deltaline/assets/Letter-To-Saijo-V1-1.png"

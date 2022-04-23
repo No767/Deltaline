@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Group, Title, Text, Stack, Image, Divider } from "@mantine/core";
+import { Group, Title, Text, Stack, Image } from "@mantine/core";
 
 export function Body3({}) {
   return (
@@ -11,16 +11,17 @@ export function Body3({}) {
         direction="row"
         spacing="md"
         pt={50}
+        mx={50}
       >
         <Image
-          src="https://raw.githubusercontent.com/No767/Deltaline/dev/nextjs-deltaline/assets/Letter-To-Saijo-V1-1.png"
+          src="https://raw.githubusercontent.com/No767/Deltaline/dev/nextjs-deltaline/assets/march-challenge-chart.png"
           radius="md"
-          alt="Letter to Saijo V1 Pg 1"
+          alt="March Challenge Chart"
         />
         <Image
-          src="https://raw.githubusercontent.com/No767/Deltaline/dev/nextjs-deltaline/assets/Letter-To-Saijo-V1-2.png"
+          src="https://raw.githubusercontent.com/No767/Deltaline/dev/nextjs-deltaline/assets/march-challenge-proof.png"
           radius="md"
-          alt="Letter to Saijo V1 Pg 2"
+          alt="March Challenge Proof"
         />
       </Group>
       <Stack
@@ -33,45 +34,40 @@ export function Body3({}) {
         }}
         mx={50}
       >
-        <Title order={3}>Letter to Saijo V1</Title>
+        <Title order={3}>March Challenge</Title>
         <Title order={4}>2021/4/7</Title>
         <Text size="lg" align="center">
-          This one is quite special since this is a digital letter to the
-          students in one of the high schools in Saijo. The idea was to write a
-          letter (both in Japanese and in English), and to kinda explain things
-          like some basic info, what we usually do in a day, and other stuff. We
-          first do it on google drawings and convert it to a pdf file. From
-          there, we just give it to the teacher, and by April 5th, the teacher
-          will send them all to the other teachers in Saijo, and they will print
-          it out. And they will give it to the students. As of writing this,
-          it&apos;s already 2 days past the due date, so I hope they already
-          have read the letter and checked on this digital portfolio. The QR
-          code just goes to this digital portfolio. Now, this was a fun
-          experience and project to work on, since I already have gotten to
-          interact with some of the students from that high school in Saijo. And
-          I know that they are going to see this digital portfolio once they
-          scanned it. Originally, I had gotten a custom domain, and made a
-          version on my other accounts to add in the DNS records the domain, but
-          I switched it to this digital portfolio last minute. This one is
-          mainly for teachers and students to see, the other one is meant for
-          more for family members, and the public to see. This project
-          wasn&apos;t that challenging to work on, but I had a hard time getting
-          started on the Japanese part of it. Until I managed to get it done by
-          2 am PST. The Japanese portion was the most difficult to work on, and
-          I will admit there is a couple of mistake in there, but it just shows
-          you that I&apos;m learning and I make mistakes a lot. And that part
-          took the longest to work on. The rest was easy to work on since the
-          English portion only took around an hour to finish. Now, you may be
-          asking: why are there 2 pages? There&apos;s only supposed to be one.
-          Well, we were allowed 2 pages, if our letters were very long, just
-          like mine. I had planned it where you would need both letters side by
-          side in order to fully understand it. I added some captions, and some
-          other stuff just for fun, and mostly covered the info from the
-          Japanese part. But I also added a lot more, so it looks like an essay
-          now. This project was the most exciting and fun to work on since I
-          knew that the students from Saijo would be reading this. If you are
-          reading this, I hope you enjoyed looking at the letter and my digital
-          portfolio. I spent a lot of time working on this project.
+          Well, another month has passed. And that means another challenge, and
+          in this case, it&apos;s the March Challenge. This one is a little bit
+          different, and we had to choose between 3 sets. This one was mainly
+          focused on learning about different fruits and vegetables. I choose
+          set B, where we had to write and list the fruits that we wanted to
+          learn about in katakana and write about whether we liked them or not.
+          We had to write out which fruits our family members liked and
+          disliked. And the rest was mainly practice. (on the left, you can see
+          some of the stuff that I wrote and practiced with) Well, just like
+          last time, I didn&apos;t have much time to commit to practicing this,
+          but now I do have a lot more time. The rest of the time I have will be
+          going to learning Japanese and putting my best effort into it. There
+          was a massive growth if you look at the graph on the left. Compared to
+          last month&apos;s monthly challenge, this is a big improvement. There
+          were a few fruits that had some kanji in them, and that made it
+          challenging to try and memorize. But a lot of them were the easy ones,
+          that only had katakana on them. And that made it a memorable one since
+          now I can tell someone what types of fruits I like in Japanese. This
+          could be useful to introduce myself and to have some fun with my
+          family. As I do more of these challenges, I start to realize the
+          purpose of them: to challenge and get outside of your comfort zone.
+          And this could be applied to a lot of things. Like life itself. You
+          won&apos;t learn unless you put yourself outside your comfort zone. I
+          will always remember this motto: Seek Discomfort. This comes from Yes
+          Theory, and their videos have truly made me push myself outside my
+          comfort zone. If it weren&apos;t for that moto, I would have chosen
+          something easier. As I&apos;m still learning this language, the most
+          important thing that I learned is to step outside your comfort zone
+          and to practice. Just like learning how to code or how to play an
+          instrument, you won&apos;t learn unless you put yourself outside your
+          comfort zone. That is something to truly ponder on...
         </Text>
       </Stack>
     </>

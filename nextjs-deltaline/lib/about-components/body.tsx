@@ -29,7 +29,7 @@ export function Body({}) {
         >
           About
         </Title>
-        <Text size="lg" color="white" align="center" mx={200} pb={25}>
+        <Text size="lg" color="white" align="center" mx={50} pb={25}>
           Hey there! I&apos;m Noelle, a Full Stack Web Developer and a Discord
           Bot Developer. I work with frameworks like React and Next.js, to
           backend frameworks like FastAPI. In fact, this whole entire website
@@ -64,7 +64,7 @@ export function Body({}) {
         }}
       />
 
-      <Stack align="center" justify="center" spacing="xl" my={50}>
+      <Stack align="center" justify="center" spacing="xl" my={50} mx={50}>
         <Title
           order={3}
           sx={{
@@ -75,7 +75,7 @@ export function Body({}) {
           Deltaline
         </Title>
 
-        <Text size="lg" color="white" align="center" mx={200} pb={25}>
+        <Text size="lg" color="white" align="center" pb={25}>
           Deltaline is the name given to this digital portfolio. As a student
           here at GWHS, some teachers require us to make a &quot;Digital
           Portfolio&quot;, so if our employer asks, we can use this on our
@@ -97,7 +97,7 @@ export function Body({}) {
         }}
       />
 
-      <Stack align="center" justify="center" spacing="xl" my={50}>
+      <Stack align="center" justify="center" spacing="xl" my={50} mx={50}>
         <Title
           order={3}
           align="center"
@@ -109,7 +109,7 @@ export function Body({}) {
           Issues with Google Sites and the Birth of Deltaline
         </Title>
 
-        <Text size="lg" color="white" align="center" mx={200}>
+        <Text size="lg" color="white" align="center">
           By the end of the school year, the Japanese page had become too laggy,
           and started to affect performance. As an avid programmer, I started to
           wonder how could I try and fix this issue. So most of the summer
@@ -120,11 +120,11 @@ export function Body({}) {
           (not even hosted on a web server during testing)
         </Text>
 
-        <Text size="lg" color="white" align="center" mx={200}>
+        <Text size="lg" color="white" align="center">
           And thus, Deltaline was born. A faster, more progressive version of
           this digital portfolio.
         </Text>
-        <Text size="lg" color="white" align="center" mx={200}>
+        <Text size="lg" color="white" align="center">
           Google Sites contains so many issues that end up lagging lower end
           systems (like chromebooks). Deltaline will be powered by Next.js +
           SSR, which increases the load times by a lot. Deltaline will also be
@@ -141,7 +141,7 @@ export function Body({}) {
         }}
       />
 
-      <Stack align="center" justify="center" spacing="xl" mt={50}>
+      <Stack align="center" justify="center" spacing="xl" mt={50} mx={50}>
         <Title
           order={3}
           sx={{
@@ -152,13 +152,13 @@ export function Body({}) {
           The Inner Workings of Deltaline
         </Title>
 
-        <Text size="lg" color="white" align="center" mx={200}>
+        <Text size="lg" color="white" align="center">
           Deltaline is powered by Next.js + SSR. This means that the load times
           are insane and perform way way faster than Google Sites (and Angular
           as well). The bundle size for Deltaline is also really really small
         </Text>
 
-        <Text size="lg" color="white" align="center" mx={200}>
+        <Text size="lg" color="white" align="center">
           Deltaline is licensed under the GPL-3.0 License, open source, and can
           be found{" "}
           <Text
