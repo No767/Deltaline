@@ -1,0 +1,13 @@
+html,
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+}
+
+.iconSize {
+  font-size: 175px;
+}
+
+.iconColor {
+  color: #ffffff;
+}

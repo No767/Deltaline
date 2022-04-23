@@ -22,3 +22,5 @@ node_modules
 .gitignore~
 node_modules/
 node_modules
+Deltaline-API/Testers
+Deltaline-API/Databases
