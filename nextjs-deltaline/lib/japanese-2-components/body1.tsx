@@ -43,8 +43,12 @@ export function Body1({}) {
         }}
         mx={50}
       >
-        <Title order={3}>日本りょこう　パンフレット </Title>
-        <Title order={4}>二月十八月</Title>
+        <Title order={3} align="center">
+          日本りょこう　パンフレット{" "}
+        </Title>
+        <Title order={4} align="center">
+          二月十八月
+        </Title>
         <Text size="lg" align="center">
           The one above you see is one of my projects, the Japan Trip Brochure.
           The whole point of it is to design a brochure about your city (in my

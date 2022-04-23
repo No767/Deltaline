@@ -34,8 +34,12 @@ export function Body2({}) {
         }}
         mx={50}
       >
-        <Title order={3}>Letter to Saijo V1</Title>
-        <Title order={4}>2021/4/7</Title>
+        <Title order={3} align="center">
+          Letter to Saijo V1
+        </Title>
+        <Title order={4} align="center">
+          2021/4/7
+        </Title>
         <Text size="lg" align="center">
           This one is quite special since this is a digital letter to the
           students in one of the high schools in Saijo. The idea was to write a

@@ -45,8 +45,12 @@ export function Body2({}) {
         }}
         mx={50}
       >
-        <Title order={3}>お正月 （年賀状、絵馬、御神籤) </Title>
-        <Title order={4}>二月十二日</Title>
+        <Title order={3} align="center">
+          お正月 （年賀状、絵馬、御神籤){" "}
+        </Title>
+        <Title order={4} align="center">
+          二月十二日
+        </Title>
         <Title order={4} pt={25}>
           年賀状
         </Title>

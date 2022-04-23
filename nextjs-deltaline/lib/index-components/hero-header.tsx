@@ -28,7 +28,7 @@ export function HeroHeader({}) {
         </Title>
 
         <Title
-          order={2}
+          order={3}
           align="center"
           sx={{
             color: "#F8F9FA",

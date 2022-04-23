@@ -33,8 +33,13 @@ export function Body4({}) {
         }}
         mx={50}
       >
-        <Title order={3}>Letter to Saijo V3</Title>
-        <Title order={4}>九月二十二日</Title>
+        <Title order={3} align="center">
+          Letter to Saijo V3
+        </Title>
+        <Title order={4} align="center">
+          {" "}
+          九月二十二日
+        </Title>
         <Text size="lg" align="center">
           Well, this letter is different. It&apos;s all about our summer
           experiences. But we have to write it to our friends at Saijo. As of
