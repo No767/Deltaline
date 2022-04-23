@@ -82,3 +82,7 @@ Under the hood, Deltaline uses [Next.js](https://nextjs.org). TypeScript support
 
 # License
 This repo is licensed under the [GPL-3.0](https://github.com/No767/Deltaline/blob/dev/LICENSE.txt) License. Further licensing info can be found [here](https://deltaline-docs.netlify.app/docs/terms-and-conditions/licensing)
+
+# Contributing
+
+See [Contributing](https://github.com/No767/Deltaline/blob/dev/Community/contributing.md)
