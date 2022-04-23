@@ -33,3 +33,5 @@ nextjs-deltaline/.eslintrc.json
 nextjs-deltaline/next-env.d.ts
 nextjs-deltaline/next.config.js
 nextjs-deltaline/tsconfig.json
+nextjs-deltaline/assets
+nextjs-deltaline/background-assets
