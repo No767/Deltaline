@@ -8,7 +8,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/nextjs-deltaline"
     schedule:
-      interval: "daily"
+      interval: "monthly"
     commit-message:
       prefix: "[npm/yarn]"
       include: "scope"
